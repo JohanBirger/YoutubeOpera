@@ -21,7 +21,7 @@ public class YTinOpera {
 
             } else if (os.indexOf( "mac" ) >= 0) {
 
-                rt.exec( "open -a Opera" + url);
+                rt.exec( "open -a Opera " + url);
 
             } else if (os.indexOf( "nix") >=0 || os.indexOf( "nux") >=0) {
 
